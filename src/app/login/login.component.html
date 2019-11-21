@@ -1,0 +1,53 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <a class="navbar-brand" href="/">Employee Profile</a>
+</nav>
+
+<div class="row p-0 m-0">
+  <div class="col-sm"></div>
+
+  <div class="col-sm p-5">
+    <h2 class="form-signin-heading">Sign In To Start Chat</h2>
+
+    <br />
+
+    <span>Email: </span>
+
+    <label for="inputEmail" class="sr-only">Email address</label>
+
+    <input
+      type="email"
+      id="inputEmail"
+      class="form-control"
+      [(ngModel)]="email"
+      placeholder="Email address"
+      required
+    />
+
+    <br />
+
+    <span>Password: </span>
+
+    <label for="inputPassword" class="sr-only">Password</label>
+
+    <input
+      type="password"
+      id="inputPassword"
+      class="form-control"
+      [(ngModel)]="password"
+      placeholder="Password"
+      required
+    />
+
+    <br />
+
+    <button
+      class="btn btn-lg btn-primary btn-block"
+      type="button"
+      (click)="signinFunction()"
+    >
+      Sign In
+    </button>
+  </div>
+
+  <div class="col-sm"></div>
+</div>
