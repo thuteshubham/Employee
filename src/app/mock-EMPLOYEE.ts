@@ -6,7 +6,7 @@ export const Employees: Employee[] = [
     name: "Ramesh",
     address: "abc",
     designation: "Sofetare Developer",
-    age: 1,
+    age: 25,
     aboutMe: "Great"
   },
   {
@@ -14,15 +14,15 @@ export const Employees: Employee[] = [
     name: "Shubham",
     address: "abc",
     designation: "Technical Analyst",
-    age: 1,
+    age: 25,
     aboutMe: "Beutiful"
   },
   {
     id: "EM03",
     name: "Shyam",
     address: "abc",
-    designation: "Sofetare Enginerr",
-    age: 1,
+    designation: "Sofetare Enginere",
+    age: 24,
     aboutMe: "Passionate"
   },
   {
@@ -30,7 +30,7 @@ export const Employees: Employee[] = [
     name: "Sai",
     address: "abc",
     designation: "Senior Sofetare Developer",
-    age: 1,
-    aboutMe: "Ambitous"
+    age: 24,
+    aboutMe: "Ambitious"
   }
 ];
